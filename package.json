@@ -1,0 +1,37 @@
+{
+  "name": "v-validator",
+  "version": "0.0.1",
+  "description": "An vue plugin for validation, inspired by https://github.com/monterail/vuelidate",
+  "main": "dist/v-validator.min.js",
+  "jsnext:main": "lib/index.js",
+  "scripts": {
+    "build": "node build",
+    "build:prod": "cross-env NODE_ENV=production node build",
+    "start": "npm run build && npm run build:prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JounQin/v-validator.git"
+  },
+  "keywords": [
+    "vue-validator",
+    "validator",
+    "vuelidate",
+    "validate",
+    "vue-validate"
+  ],
+  "author": "JounQin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JounQin/v-validator/issues"
+  },
+  "homepage": "https://github.com/JounQin/v-validator#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "cross-env": "^3.1.3",
+    "rollup": "^0.37.0",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-replace": "^1.1.1",
+    "rollup-plugin-uglify": "^1.0.1"
+  }
+}
